@@ -1,0 +1,9 @@
+k)
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return x**2 + y**2 - x*y + x - y + 1
+
+def grad_f(x, y):
+    df_dx = 2*x - y + 1

@@ -1,0 +1,8 @@
+h)
+
+i)  x and y define the data points.
+ii)  polyfit(x, y, 4) computes the coefficients of a 4th-degree polynomial that fits the data points (x, y).
+iii)  x2 creates a vector from 1 to 6 with increments of 0.1.
+iv)  polyval(p, x2) evaluates the polynomial with coefficients p at each point in x2.
+v)  plot(x, y, 'o', x2, y2) plots the original data points as circles and the polynomial fit as a line.
+vi)  grid on adds a grid to the plot.
